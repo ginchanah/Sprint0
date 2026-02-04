@@ -17,10 +17,27 @@ Met oog op mijn leerdoelen heb ik toen bedacht dat ik een spelletje wilde maken,
 
 Maar toen kreeg ik feedback dat dit te ingewikkeld zou worden dus toen ben ik meer gaan focusen op mijn andere twee leerdoelen. Hierbij kwam ik uit bij een website waar ik mezelf afbeeld als poppetje, helemaal van semantische HTML-elementen en CSS. En dit op dit poppetje ga ik dan animaties toevoegen, die bij interactie met het poppetje gebeuren.
 ![IMG_0546](https://github.com/user-attachments/assets/807770c4-ee01-4db4-9b7b-6d0c77ed0be3)
-## Dag 2
-- Workshop Cyd
-- Inspiratie ophalen op pinterest <img width="784" height="453" alt="Bildschirmfoto 2026-02-04 um 13 57 27" src="https://github.com/user-attachments/assets/f83489ef-6f77-4b93-b8df-8d149ec01ed2" />
-- eerste design poppetje
-- <img width="380" height="707" alt="Bildschirmfoto 2026-02-04 um 14 39 32" src="https://github.com/user-attachments/assets/19b0b8b3-583a-4764-9c86-1b26e3a22222" />
+### Dag 2
+
+- Wat heb ik vandaag gedaan?
+  - Workshops Cyd
+  - Inspiratie ophalen op pinterest <img width="784" height="453" alt="Bildschirmfoto 2026-02-04 um 13 57 27" src="https://github.com/user-attachments/assets/f83489ef-6f77-4b93-b8df-8d149ec01ed2" />
+  - eerste design poppetje
+  - <img width="380" height="707" alt="Bildschirmfoto 2026-02-04 um 14 39 32" src="https://github.com/user-attachments/assets/19b0b8b3-583a-4764-9c86-1b26e3a22222" />
+  - onderzoek naar semantische HTML elementen en uitzoeken welke ik wil gebruiken
+- Hoe lang duurde het?
+  - 3 uur
+- Wat heb ik geleerd?
+  - Ik heb nieuwe HTML elementen leren kennen
+- Wat ga ik morgen doen?
+  - Uitzoeken welke elementen van het poppetje welke HTML elementen worden en beginnen met code
+
+ 
+
+## Bronnen
+https://www.w3schools.com/tags/default.asp
+https://miocene.io/post/css-character-skeleton/
+https://nl.pinterest.com/ginchanah/sprint0-inspiratie/
+
 
 
