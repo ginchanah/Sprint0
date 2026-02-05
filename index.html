@@ -4,30 +4,200 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maja Wendelin</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Caveat:wght@500&family=Chewy&family=Expletus+Sans:ital,wght@0,400..700;1,400..700&family=Gravitas+One&family=Jaro:opsz@6..72&family=Jua&family=Modak&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>About Maja!</h1>
-    </header>
-    <main>
-        
-        <h2>Facts & Fun</h2>
-        <!-- https://time.now/developer -->
-        <time datetime=""></time>
-        <ol>
-            <li>I hate maths. Stay away with your variables <var>a</var> + <var>b</var></li>
-            <li>I turn off autocorrect on my phone so sometimes I <u>mispel</u> words</li>
-        </ol>
-        <table>
-            <tr></tr>
-        </table>
-        <textarea name="" id=""></textarea>
-        <details>
-            <summary></summary>
-        </details>
-    </main>
-    <footer>
+        <div id="h1Div">
+            <h1>This is Maja!</h1>
 
+            <form action="">
+                <fieldset>
+                    <legend>Color Scheme</legend>
+                    <!-- input als oog, label als bril? -->
+                    <input type="radio" id="lightMode" name="colorScheme" value="lightMode">
+                    <label for="lightMode">Light</label>
+        
+                    <input type="radio" id="darkMode" name="colorScheme" value="darkMode">
+                    <label for="darkMode">Dark</label>
+    
+                    <input type="radio" id="partyMode" name="colorScheme" value="partyMode">
+                    <label for="partyMode">Party</label>
+                </fieldset>
+            </form>
+        </div>
+
+        <!-- <dl>
+            <dt>Name</dt>
+            <dd> </dd>
+
+            <dt>Nickname</dt>
+            <dd> </dd>
+
+            <dt>Birthday</dt>
+            <dd> </dd>
+        </dl> -->
+        <nav>
+            <h2>Jump to body parts</h2>
+            <ul>
+                <!-- make a speech bubble appear? -->
+                <li>
+                    <a href="#head">Head</a>
+                </li>
+                <li>
+                    <a href="#shoulder">Shoulder</a>
+                </li>
+                <li>
+                    <a href="#knees">Knees</a>
+                </li>
+                <li>
+                    <button aria-label="This button turns on an animation of my shoes. It doesn't actually jump anywhere.">And Toes</button>
+                </li>
+            </ul>
+        </nav>
+
+        
+
+        <!-- whole head, div styled as Hair -->
+        <div id="head"> 
+            <h2>Here begins my head</h2>
+            <!-- styled as bangs  -->
+            <details>
+                <summary>Expandable Bangs</summary>
+                <p>Rest of the bangs</p>
+            </details>
+            
+
+            <!-- face -->
+            <form action="">
+                <fieldset>
+                    <legend>Brown Eyes</legend>
+                    <!-- input als oog, label als bril? -->
+                    <input type="radio" id="leftEye" name="eyes" value="leftEye">
+                    <label for="leftEye">Left Eye</label>
+
+                    <input type="radio" id="rightEye" name="eyes" value="rightEye">
+                    <label for="rightEye">Right Eye</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Nose With Nosering & Mouth</legend>
+                    <input type="checkbox" id="nose" name="face" value="nose">
+                    <label for="nose">Nose With Nosering</label>
+
+                    <input type="checkbox" id="mouth" name="face" value="mouth">
+                    <label for="mouth">Normal Mouth</label>
+                </fieldset>
+            </form>
+
+            <p>My neck is a normal length</p>
+        </div>
+    </header>
+
+
+
+
+    <main id="shoulders">
+        <!-- leerdoelen ergens? -->
+        
+        <!-- dit is nog de -->
+        <h2>Here begins my body</h2>
+
+        <!-- linker arm -->
+        <aside>
+            <h3>My arm</h3>
+            <p>My upper arm</p>
+            <p>My lower arm</p>
+            <!-- hand -->
+            <ul>
+                <!-- the thumb -->
+                <li>My left thumb</li>
+                <!-- other fingers -->
+                <ul>
+                    <li>Finger 1</li>
+                    <li>Finger 2</li>
+                    <li>Finger 3</li>
+                    <li>Finger 4</li>
+                </ul>
+            </ul>
+        </aside>
+
+        <!-- bovenlichaam -->
+        <section>
+            <h3>My upper body</h3>
+            <!-- straps -->
+            <div>
+                <button aria-label="shirt-strap 1"></button>
+                <button aria-label="shirt-strap 2"></button>
+            </div>
+
+            <!-- shirt -->
+            <form action="">
+                <fieldset>
+                    <label for="aboutme">T-shirt</label>
+                    <textarea name="aboutme" id="aboutme"></textarea>
+                </fieldset>
+            </form>
+
+            <!-- dropdown for pants color that is also the pants -->
+            <label for="pantsColor">Choose a color for my pants:</label>
+            <select name="pantsColor" id="pantsColor">
+                <option value="Red">Red</option>
+                <option value="Yellow">Yellow</option>
+                <option value="Brown">Brown</option>
+                <option value="Pink">Pink</option>
+            </select>
+        </section>
+        
+        <!-- rechter arm -->
+        <aside>
+            <h3>My arm</h3>
+            <p>My upper arm</p>
+            <p>My lower arm</p>
+            <!-- hand -->
+            <ul>
+                <!-- other fingers -->
+                <ol>
+                    <li>Finger 1</li>
+                    <li>Finger 2</li>
+                    <li>Finger 3</li>
+                    <li>Finger 4</li>
+                </ol>
+                <!-- the thumb -->
+                <li>My right thumb</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer id="knees">
+        <h2>Here begin my legs and feet</h2>
+        <ul>
+            <ul>
+                <li>Upper leg left</li>
+                <li>Lower leg left</li>
+                <ul>
+                    <li>shoelaces</li>
+                    <li>shoe</li>
+                    <li>shoe sole</li>
+                </ul>
+            </ul>
+            <ul>
+                <li>Upper leg right</li>
+                <li>Lower leg right</li>
+                <ul>
+                    <li>shoelaces</li>
+                    <li>shoe</li>
+                    <li>shoe sole</li>
+                </ul>
+            </ul>
+        </ul>
     </footer>
+
+    <script defer src="client.js"></script>
+
 </body>
 </html>

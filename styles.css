@@ -1,0 +1,52 @@
+/****************************************/
+/************ Color Schemes  ************/
+/****************************************/
+
+
+:root {
+    color-scheme: light dark party;
+    --text-color: black;
+	--background: #C8C3BD;
+    --font-heading: 'Gravitas One', Courier, monospace;
+    --font-body: Courier, monospace, Arial;
+
+}
+
+:has(#darkMode:checked) {
+    --text-color: white;
+	--background: black;
+}
+
+:has(#partyMode:checked) {
+    --text-color: yellow;
+	--background: blue;
+}
+
+/***********************************/
+/************ Algemeen  ************/
+/***********************************/
+
+
+body {
+    color: var(--text-color);
+    background: var(--background);
+    font-family: var(--font-body);
+
+    display: grid;
+    justify-content: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+}
+
+/************ Top of page  ************/
+
+header>div:first-of-type {
+    text-align: center;
+}
+
+
+
+
+
