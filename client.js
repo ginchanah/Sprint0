@@ -1,5 +1,3 @@
-// docs: https://www.bobsburgersapi.com/documentation
-
 // de functie aanroepen die informatie over Maja gaat ophalen
 insertMaja()
 
