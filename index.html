@@ -12,55 +12,41 @@
 </head>
 <body>
     <header>
-        <div id="h1Div">
+        
             <h1>This is Maja!</h1>
 
             <form action="">
                 <fieldset>
-                    <legend>Choose a theme</legend>
+                    <legend>Choose a theme:</legend>
                     <!-- input als oog, label als bril? -->
-                    <input type="radio" id="lightMode" name="colorScheme" value="lightMode">
-                    <label for="lightMode">Light</label>
-        
-                    <input type="radio" id="darkMode" name="colorScheme" value="darkMode">
-                    <label for="darkMode">Dark</label>
-    
-                    <input type="radio" id="textMode" name="colorScheme" value="textMode">
-                    <label for="textMode">Text</label>
+                    <div>
+                        <input type="radio" id="lightMode" name="colorScheme" value="lightMode" checked>
+                        <label for="lightMode">Light</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="darkMode" name="colorScheme" value="darkMode">
+                        <label for="darkMode">Dark</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" id="textMode" name="colorScheme" value="textMode">
+                        <label for="textMode">Text</label>
+                    </div>
                 </fieldset>
             </form>
+        <div id="quote">
         </div>
-
-        <!-- <dl>
-            <dt>Name</dt>
-            <dd> </dd>
-
-            <dt>Nickname</dt>
-            <dd> </dd>
-
-            <dt>Birthday</dt>
-            <dd> </dd>
-        </dl> -->
         <nav>
-            <h2>Jump to different body parts</h2>
             <ul>
-                <!-- make a speech bubble appear? -->
-                <li>
-                    <a href="#head">Head</a>
-                </li>
-                <li>
-                    <a href="#shoulders">Shoulders</a>
-                </li>
-                <li>
-                    <a href="#knees">Knees</a>
-                </li>
-                <li>
-                    <button>And Toes, Knees and Toes. This button turns on an animation of my shoes. It doesn't actually jump anywhere.</button>
-                </li>
+                <li><a href="#head">Jump to: Head</a></li>
+                <li><a href="#shoulders">Jump to: Shoulders</a></li>
+                <li><a href="#knees">Jump to: Knees</a></li>
+                <li>and toes... actually you can't jump here, sorry.</li>
             </ul>
-        </nav>  
-    </header>
+        </nav>
 
+    </header>
 
 
 
@@ -82,7 +68,7 @@
                     <!-- input als oog, label als bril? -->
                     <div>
                         <label for="leftEye">Left Eye, slightly worse seeing than the left.</label>
-                        <input type="radio" id="leftEye" name="eyes" value="leftEye">
+                        <input type="radio" id="leftEye" name="eyes" value="leftEye" checked>
                         
     
                         <input type="radio" id="rightEye" name="eyes" value="rightEye">
@@ -93,7 +79,7 @@
                 <fieldset>
                     <legend>My nose and mouth. Select to flip.</legend>
                     <div>
-                        <input type="checkbox" id="nose" name="face" value="nose">
+                        <input type="checkbox" id="nose" name="face" value="nose" checked>
                         <label for="nose">Nose with gold nosering.</label>
     
                         <input type="checkbox" id="mouth" name="face" value="mouth">
@@ -111,20 +97,24 @@
 
         <!-- linker arm -->
         <aside>
-            <h3>My left arm</h3>
-            <p>My upper left arm. A pretty stong arm.</p>
+            <div>
+                <h3>My left arm</h3>
+                <p>My upper left arm. A pretty stong arm.</p>
+            </div>
             <p>My lower arm. My lower arm. Slightly less strong since I stopped climbing.</p>
             <!-- hand -->
             <ul>
                 <!-- the thumb -->
                 <li>My left thumb. Has a scar.</li>
                 <!-- other fingers -->
-                <ul>
-                    <li>Index finger, good for pointing.</li>
-                    <li>Middle finger, good for flipping people off.</li>
-                    <li>Ring finger, good for a ring, maybe.</li>
-                    <li>Pinky, kinda just there.</li>
-                </ul>
+                <li>
+                    <ul>
+                        <li>Index finger, good for pointing.</li>
+                        <li>Middle finger, good for flipping people off.</li>
+                        <li>Ring finger, good for a ring, maybe.</li>
+                        <li>Pinky, kinda just there.</li>
+                    </ul>
+                </li>
             </ul>
         </aside>
 
@@ -133,25 +123,26 @@
 
         <!-- del element deleted tshirt -->
         <section>
-            <h3>My upper body</h3>
+            
             <!-- straps -->
             <div>
-                <button>First shirt-strap. Can change color.</button>
-                <button>Second shirt-strap. Can change color.</button>
+                <!-- necklace pendant -->
+                <h3>My upper body</h3>
+                <!-- straps -->
+                <button class="straps">First shirt-strap. Can change color.</button>
+                <button class="straps">Second shirt-strap. Can change color.</button>
             </div>
 
             <!-- shirt -->
-            <form action="">
-                <fieldset>
-                    <label for="aboutme">My t-shirt. Has a print with things I have said, that my friends wrote down.</label>
-                    <blockquote>
-                        I don't like balls. I don't like anything. I don't care about any of this. They call me stabby the stabber.
-                    </blockquote>
-                </fieldset>
-            </form>
+            <div id="shirt">
+                <label for="aboutme">My t-shirt. Has a print with things I have said, that my friends wrote down.</label>
+                <blockquote>
+                    I don't like anything. I don't care about any of this.
+                </blockquote>
+            </div>
 
             <!-- dropdown for pants color that is also the pants -->
-            <label for="pantsColor">Choose a color for my skirt:</label>
+            <!-- <label for="pantsColor">Choose a color for my skirt:</label>
             <select name="pantsColor" id="pantsColor">
                 <option value="Red">Red</option>
                 <option value="Yellow">Yellow</option>
@@ -161,32 +152,37 @@
 
             <del>
                 This is a really cool pair of red pants that I lost on vacation.
-            </del>
+            </del> -->
         </section>
         
         <!-- rechter arm -->
         <aside>
-            <h3>My right arm</h3>
-            <p>My upper right arm. I can flex my biceps here pretty well.</p>
+            <div>
+                <h3>My right arm</h3>
+                <p>My upper right arm. I can flex my biceps here pretty well.</p>
+            </div>
             <p>My lower arm. Nothing to say about this.</p>
             <!-- hand -->
             <ul>
-                <!-- other fingers -->
-                <ol>
-                    <li>Pinky, very small.</li>
-                    <li>Ring finger, never wears any rings </li>
-                    <li>Middle finger, has never flipped anyone off, I promise.</li>
-                    <li>Index finger. I use it to type on my phone because I am weird (or so I am told)</li>
-                </ol>
                 <!-- the thumb -->
                 <li>My right thumb. A cool guy. It's print is known to the korean government.</li>
+                <!-- other fingers -->
+                <li>
+                    <ul>
+                        <li>Pinky, very small.</li>
+                        <li>Ring finger, never wears any rings </li>
+                        <li>Middle finger, has never flipped anyone off, I promise.</li>
+                        <li>Index finger. I use it to type on my phone because I am weird (or so I am told)</li>
+                    </ul>
+                </li>
+                
             </ul>
         </aside>
     </main>
 
     <!-- eigenlijk metadata -->
     <footer id="knees">
-        <h2>Here begin my legs and feet</h2>
+        <!-- <h2>Here begin my legs and feet</h2>
         <ul>
             <ul>
                 <li>Upper left leg. Doesn't have a tattoo unfortunately.</li>
@@ -206,7 +202,7 @@
                     <li>A good shoe sole. Is this website fun to look at and also accessible? I hope so.</li>
                 </ul>
             </ul>
-        </ul>
+        </ul> -->
     </footer>
 
     <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>

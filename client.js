@@ -21,17 +21,28 @@ async function insertMaja() {
 
 	console.log(majaInfo)
 
+    console.log(majaInfo[80])
+
     //info dynamisch invullen in html
 
-    let majaQuote = majaInfo[83].bio
+    let majaQuote = majaInfo[80].bio;
 
     console.log(majaQuote)
 
     let majaQuoteHTML = 
     `<q>${majaQuote}</q>`
 
-    //de html toevoegen met insertAdjacentHTML
+    // get the first name only
+    let wholeName = majaInfo[80].name;
+    const nameArray = wholeName.split(" ");
+    let firstName = nameArray[0];
 
-    h1Div.insertAdjacentHTML("afterend", majaQuoteHTML)
+    //de html toevoegen met insertAdjacentHTML
+    const quote = document.getElementById("quote");
+    const h1 = document.querySelector("h1")
+
+    quote.insertAdjacentHTML("beforeend", majaQuoteHTML)
+    h1.textContent = `This is ${firstName}!`
+    
         
 }
