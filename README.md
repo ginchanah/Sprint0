@@ -103,8 +103,8 @@ Maar toen kreeg ik feedback dat dit te ingewikkeld zou worden dus toen ben ik me
 - Wat heb ik geleerd?
   - View transitions!! die had ik buiten de workshop nog nooit gebruikt en ik vond het wel ingewikkeld in het begin, maar heb wel hulp van Cyd gekregen!
   - ik wist ook niet dat je in CSS constrast-color() kon gebruiken, wat handig! 
-  - Ik heb nog een beetje gespeeld met de data uit de API
 - Wat ga ik morgen doen?
+  - De animaties van mijn armen afronden en misschien nog wat dingen iets mooier maken dan nu, want ik hou niet zo van de kleuren die ik gebruik
 
  
 
