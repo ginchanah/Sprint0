@@ -96,26 +96,33 @@
         <h2 id="shoulders">Here begins my body</h2>
 
         <!-- linker arm -->
-        <aside>
-            <div>
+        <aside id="leftarm" class="arms">
+            <div class="upperarm">
                 <h3>My left arm</h3>
                 <p>My upper left arm. A pretty stong arm.</p>
             </div>
-            <p>My lower arm. My lower arm. Slightly less strong since I stopped climbing.</p>
-            <!-- hand -->
-            <ul>
-                <!-- the thumb -->
-                <li>My left thumb. Has a scar.</li>
-                <!-- other fingers -->
+            <ul class="lowerarm">
                 <li>
+                    My lower arm. My lower arm. Slightly less strong since I stopped climbing.
+                </li>
+                <li class="hand">
                     <ul>
-                        <li>Index finger, good for pointing.</li>
-                        <li>Middle finger, good for flipping people off.</li>
-                        <li>Ring finger, good for a ring, maybe.</li>
-                        <li>Pinky, kinda just there.</li>
+                        <!-- the thumb -->
+                        <li>My left thumb. Has a scar.</li>
+                        <!-- other fingers -->
+                        <li>
+                            <ul>
+                                <li>Index finger, good for pointing.</li>
+                                <li>Middle finger, good for flipping people off.</li>
+                                <li>Ring finger, good for a ring, maybe.</li>
+                                <li>Pinky, kinda just there.</li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
             </ul>
+            <!-- hand -->
+            
         </aside>
 
         <!-- bovenlichaam -->
@@ -129,15 +136,15 @@
                 <!-- necklace pendant -->
                 <h3>My upper body</h3>
                 <!-- straps -->
-                <button class="straps">First shirt-strap. Can change color.</button>
-                <button class="straps">Second shirt-strap. Can change color.</button>
+                <button class="straps">First shirt-strap. Can change color and show my learning objectives.</button>
+                <button class="straps">Second shirt-strap. Can change color and show my learning objectives.</button>
             </div>
 
             <!-- shirt -->
             <div id="shirt">
-                <label for="aboutme">My t-shirt. Has a print with things I have said, that my friends wrote down.</label>
+                <label for="aboutme">My t-shirt. Has a print on it with my learning objectives for the minor I am doing. Changes when you press the buttons above</label>
                 <blockquote>
-                    I don't like anything. I don't care about any of this.
+                    My learning objectives
                 </blockquote>
             </div>
 
@@ -156,7 +163,7 @@
         </section>
         
         <!-- rechter arm -->
-        <aside>
+        <aside id="rightarm" class="arms">
             <div>
                 <h3>My right arm</h3>
                 <p>My upper right arm. I can flex my biceps here pretty well.</p>
@@ -182,6 +189,13 @@
 
     <!-- eigenlijk metadata -->
     <footer id="knees">
+        <h2>My pets (that are maybe also my classmates)</h2>
+
+        <button id="petbutton">Add new pet</button>
+
+        <ul class="petcontainer">
+            
+        </ul>
         <!-- <h2>Here begin my legs and feet</h2>
         <ul>
             <ul>

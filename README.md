@@ -88,6 +88,24 @@ Maar toen kreeg ik feedback dat dit te ingewikkeld zou worden dus toen ben ik me
   - Array maken van bestaande tekst, verder eigenlijk niet zo veel omdat ik bezig was met opzich bestwel makkelijke vormgeving
 - Wat ga ik morgen doen?
   - Eindelijk animaties toevoegen, random kleur selector uitwerken, view transitions hopelijk
+
+### Dag 2
+- Wat heb ik vandaag gedaan?
+  - workshop typografie en code hygiëne
+  - Ik heb vandaag mijn vormgeving een beetje aangepast met ::before en ::after elementen op de bril die ik niet semantisch kon maken
+  - Ik heb verder niet echt aan de vormgeving gewerkt en ben eindelijk begonnen met javascript interacties en css
+  - Ik heb ervoor gezorgd dat mijn tshirt als je op de shirt-straps klikt van kleur verandert (random) en dat de tekst nog steeds leesbaar blijft, met contrast-color()
+  - Ik heb de API data over mijn klasgenoten ingeladen en ze als kleine diertjes in hun favoriete kleur op mijn website laten verschijnen
+  - daarnaast heb ik op mijn klasgenoten-huisdieren view transitions toegepast
+  - en ik ben begonnen aan een view transition voor de arm.
+- Hoe lang duurde het?
+  - 4 uur
+- Wat heb ik geleerd?
+  - View transitions!! die had ik buiten de workshop nog nooit gebruikt en ik vond het wel ingewikkeld in het begin, maar heb wel hulp van Cyd gekregen!
+  - ik wist ook niet dat je in CSS constrast-color() kon gebruiken, wat handig! 
+  - Ik heb nog een beetje gespeeld met de data uit de API
+- Wat ga ik morgen doen?
+
  
 
 # Bronnen
@@ -97,6 +115,9 @@ Design inspiratie https://nl.pinterest.com/ginchanah/sprint0-inspiratie/
 Positioning text along a path https://css-irl.info/positioning-text-along-a-path-with-css/
 Split text with javascript https://www.w3schools.com/jsref/jsref_split.asp
 CSS random color https://stackoverflow.com/questions/1484506/random-color-generator
-
+CSS property set in javascript https://stackoverflow.com/questions/5195303/set-css-property-in-javascript
+Automatische contrast color https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/contrast-color
+Random array value https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array
+View transitions https://codepen.io/ginchanah/pen/LEZrMbJ?editors=1010
 
 
