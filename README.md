@@ -106,6 +106,16 @@ Maar toen kreeg ik feedback dat dit te ingewikkeld zou worden dus toen ben ik me
 - Wat ga ik morgen doen?
   - De animaties van mijn armen afronden en misschien nog wat dingen iets mooier maken dan nu, want ik hou niet zo van de kleuren die ik gebruik
 
+### Dag 3
+- Code Review:
+  - kijken naar generic to specific, ik weet niet of ik dat goed heb gedaan
+  - kijken naar variables in CSS of ik daar ook met nesting kan werken
+  - betere comments in javascript 
+  - semicolons weg in javascript
+  - kijken of let en const allemaal klopt
+  - maar ook const voor objecten en arrays ?
+  - JS logischer structureren
+
  
 
 # Bronnen
