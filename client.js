@@ -53,23 +53,42 @@ async function insertAPI() {
         };
     });
 
+
+    // array of already added classmates -> ga ik niet doen
+    // const classmateArray = [];
+    
+
     //insert random classmate on page
     function addRandomClassmate() {
+
+
         //get random classmate
         const randomClassmateNumber = Math.floor(Math.random() * apiInfo.length);
         const randomClassmate = apiInfo[randomClassmateNumber];
+        // const randomClassmateID = randomClassmate.id;
+
 
         //get first name
         let wholeName = randomClassmate.name;
         const nameArray = wholeName.split(' ');
         let firstName = nameArray[0];
 
-        //insert classmate
+        //HTML to be added
         let classMateHTML = `
-            <li class='classmate'>
-                <span></span> ${firstName} <span></span>
-            </li>        
-            `;
+                <li class='classmate'>
+                    <span></span> ${firstName} <span></span>
+                </li>        
+                `;
+        
+        //insert classmate if classmate is not already added, else restart function -> doesn't work, but I want to add it later, maybe by making arrays of still existing classmates and using that?
+        // if (classmateArray.includes(randomClassmateID) === false) {
+        //     petContainer.insertAdjacentHTML('beforeend', classMateHTML);
+        //     classmateArray.push(randomClassmate)
+        //     console.log(classmateArray)
+        // } else {
+        //     addRandomClassmate();
+        // }
+
         petContainer.insertAdjacentHTML('beforeend', classMateHTML);
 
         //define last inserted li

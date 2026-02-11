@@ -116,7 +116,22 @@ Maar toen kreeg ik feedback dat dit te ingewikkeld zou worden dus toen ben ik me
   - maar ook const voor objecten en arrays ?
   - JS logischer structureren
 
- 
+### Weekly Checkout
+Ik heb deze week alles bijna kunnen afronden wat ik wilde doen en heb nu een product waar ik best blij mee ben! Ik wilde heel graag leren hoe ik CSS animaties kon maken waardoor ik poppetjes soortvan realistisch zou kunnen bewegen. En dat is gelukt! Ik heb alles goed genest zodat alle elementen met elkaar meebewegen. 
+![Dancing](assets/readme-images/dancing.png)
+Ik ben ook blij dat ik nu beter met arrays en objecten kan werken, dus ook met APIs en JSON data. Ik heb hier weleens mee gewerkt en hierover geleerd maar ik moest toch steeds elke stap opnieuw opzoeken omdat ik het toch niet helemaal snapte. En nu voelt het eindelijk alsof ik de basics gewoon snap en er redelijk me om kan gaan zonder steeds alles opnieuw op te zoeken. Daar ben ik blij mee! Javascript begint steeds makkelijker te worden.
+
+Mijn hoofduitdaging was natuurlijk toegankelijkheid, maar dat is toch waar ik uiteindelijk toch niet zo blij mee ben. Ik had minder tijd voor vormgeving dan ik wilde, en ik vond het lastig om een ontwerp te maken waar echt alle contrasten hoog genoeg zijn. Verder wilde ik natuurlijk wel een screen-reader friendly website, maar of het nou echt zo logisch is dat er meerdere uls in elkaar staan die aangeven dat ze vingers zijn weet ik niet. Ook is het waarschijnlijk niet super toegankelijk als ik data die belangrijk is om te lezen steeds dynamisch verander, want dat is vast niet zo leuk voor een screenreader. De footer is niet echt een footer met links.... allemaal dat soort dingen. 
+Ik had ook een css functie toegevoegd om ervoor te zorgen, dat de tekst op de t-shirt ook bij veranderede kleur leesbaar blijft, maar dat werkt in in Chrome en daar werd ik echt gek van. Ik wou dat er maar 1 browser was...
+![Laag contrast](assets/readme-images/laagcontrast.png)
+
+Verder wilde ik deze week eigenlijk nog eraan werken dat je alle klasgenoten maar één keer als huisdier kan plaatsen op mijn website. Maar dat wilde gewoon niet lukken! Ik was wel blij met wat ik had bedacht, maar er zat te veel recursion in blijkbaar, dus wilde de functie niet meer dan 1 keer opstarten. Dat was jammer. En het is me niet gelukt om dat op te lossen. Dat zou ik eigenlijk nog heel graag willen doen.
+![Eeen keer ophalen](assets/readme-images/eenkeerophalen.png)
+
+Met wat meer tijd zou ik ook gewoon nog verder gaan met de vormgeving en vooral meer moeite doen voor de klasgenoten huisdieren, want die zijn nu een beetje lelijk. En gewoon nog wat meer animaties en interacties toevoegen. Maar ja, je kunt altijd doorgaan. :)
+
+Bij de code review was me opgevallen dat ik (in hoeverre ik dat zelf kan beoordelen) best goed op weg ben met de codeconventies! Mijn html was best netjes, mijn css kon wel beter maar was ook wel goed, alleen mijn javascript kon nog wat beter geordent. Daar was ik blij mee! Het kan natuurlijk altijd beter maar het was goed om te zien dat ik wel al goed op weg ben.
+
 
 # Bronnen
 Alle HTML tags https://www.w3schools.com/tags/default.asp
@@ -128,6 +143,6 @@ CSS random color https://stackoverflow.com/questions/1484506/random-color-genera
 CSS property set in javascript https://stackoverflow.com/questions/5195303/set-css-property-in-javascript
 Automatische contrast color https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/contrast-color
 Random array value https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array
-View transitions https://codepen.io/ginchanah/pen/LEZrMbJ?editors=1010
+View transitions https://codepen.io/Sidstumple/pen/dPXmGaX
 
 

@@ -163,8 +163,7 @@ header {
     }
 
     /* speech bubble triangle */
-    nav {
-        color: var(--text-color-transparent);
+    #quotetriangle {
         width: 0; 
         height: 0; 
         border-left: 20px solid transparent;
@@ -174,9 +173,6 @@ header {
         grid-column: 1/2;
         align-self: end;
 
-        a {
-            color: var(--text-color-transparent);
-        }
     }
 }
 
