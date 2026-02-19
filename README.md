@@ -3,6 +3,7 @@ Sprint 0 opdracht, website over mij, wat ik wil en wat ik kan
 
 ## Leerdoelen
 - Goed worden in CSS animaties, want die heb ik tijdens mijn coding carrière tot nu toe een beetje genegeerd
+  - > updated leerdoel: ik wil leren hoe ik met HTML nesting relalitische bewegingen van characters kan animeren
 - Ik wil websites maken die zowel toegankelijk zijn als ook heel coole vormgeving hebben, want dat vind ik vaak lastig te combineren.
 - Goed worden in Javascript en coole interacties kunnen maken, want ik ben niet zo goed in Javascript en voor sommige animaties die ik wil maken heb ik ook Javascript nodig.
 
